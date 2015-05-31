@@ -8,45 +8,34 @@
 
 /* Begin PBXBuildFile section */
 		F26440B51B1B529200DF14FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26440B41B1B529200DF14FC /* AppDelegate.swift */; };
-		F26440B71B1B529200DF14FC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26440B61B1B529200DF14FC /* ViewController.swift */; };
-		F26440BA1B1B529200DF14FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F26440B81B1B529200DF14FC /* Main.storyboard */; };
 		F26440BC1B1B529200DF14FC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F26440BB1B1B529200DF14FC /* Images.xcassets */; };
 		F26440BF1B1B529200DF14FC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F26440BD1B1B529200DF14FC /* LaunchScreen.xib */; };
-		F26440CB1B1B529200DF14FC /* ViewControllerNavigationDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26440CA1B1B529200DF14FC /* ViewControllerNavigationDemoTests.swift */; };
+		F26440D71B1B52DB00DF14FC /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26440D61B1B52DB00DF14FC /* BaseViewController.swift */; };
+		F26440D91B1B537300DF14FC /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26440D81B1B537300DF14FC /* ProfileViewController.swift */; };
+		F26440DB1B1B539C00DF14FC /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26440DA1B1B539C00DF14FC /* ProfileView.swift */; };
+		F26440DE1B1B550B00DF14FC /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26440DD1B1B550B00DF14FC /* FirstViewController.swift */; };
+		F26440E11B1B552800DF14FC /* FirstView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26440E01B1B552800DF14FC /* FirstView.swift */; };
+		F26440E31B1B55C800DF14FC /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26440E21B1B55C800DF14FC /* SecondViewController.swift */; };
+		F26440E61B1B56EE00DF14FC /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26440E51B1B56EE00DF14FC /* SecondView.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		F26440C51B1B529200DF14FC /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F26440A71B1B529200DF14FC /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F26440AE1B1B529200DF14FC;
-			remoteInfo = ViewControllerNavigationDemo;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		F26440AF1B1B529200DF14FC /* ViewControllerNavigationDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ViewControllerNavigationDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F26440B31B1B529200DF14FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F26440B41B1B529200DF14FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F26440B61B1B529200DF14FC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F26440B91B1B529200DF14FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F26440BB1B1B529200DF14FC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		F26440BE1B1B529200DF14FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		F26440C41B1B529200DF14FC /* ViewControllerNavigationDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ViewControllerNavigationDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F26440C91B1B529200DF14FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F26440CA1B1B529200DF14FC /* ViewControllerNavigationDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerNavigationDemoTests.swift; sourceTree = "<group>"; };
+		F26440D61B1B52DB00DF14FC /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		F26440D81B1B537300DF14FC /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		F26440DA1B1B539C00DF14FC /* ProfileView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		F26440DD1B1B550B00DF14FC /* FirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		F26440E01B1B552800DF14FC /* FirstView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstView.swift; sourceTree = "<group>"; };
+		F26440E21B1B55C800DF14FC /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		F26440E51B1B56EE00DF14FC /* SecondView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		F26440AC1B1B529200DF14FC /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F26440C11B1B529200DF14FC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -60,7 +49,6 @@
 			isa = PBXGroup;
 			children = (
 				F26440B11B1B529200DF14FC /* ViewControllerNavigationDemo */,
-				F26440C71B1B529200DF14FC /* ViewControllerNavigationDemoTests */,
 				F26440B01B1B529200DF14FC /* Products */,
 			);
 			sourceTree = "<group>";
@@ -69,7 +57,6 @@
 			isa = PBXGroup;
 			children = (
 				F26440AF1B1B529200DF14FC /* ViewControllerNavigationDemo.app */,
-				F26440C41B1B529200DF14FC /* ViewControllerNavigationDemoTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -78,8 +65,10 @@
 			isa = PBXGroup;
 			children = (
 				F26440B41B1B529200DF14FC /* AppDelegate.swift */,
-				F26440B61B1B529200DF14FC /* ViewController.swift */,
-				F26440B81B1B529200DF14FC /* Main.storyboard */,
+				F26440D61B1B52DB00DF14FC /* BaseViewController.swift */,
+				F26440DF1B1B551200DF14FC /* First */,
+				F26440E41B1B56D100DF14FC /* Second */,
+				F26440DC1B1B53A200DF14FC /* Profile */,
 				F26440BB1B1B529200DF14FC /* Images.xcassets */,
 				F26440BD1B1B529200DF14FC /* LaunchScreen.xib */,
 				F26440B21B1B529200DF14FC /* Supporting Files */,
@@ -95,21 +84,31 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		F26440C71B1B529200DF14FC /* ViewControllerNavigationDemoTests */ = {
+		F26440DC1B1B53A200DF14FC /* Profile */ = {
 			isa = PBXGroup;
 			children = (
-				F26440CA1B1B529200DF14FC /* ViewControllerNavigationDemoTests.swift */,
-				F26440C81B1B529200DF14FC /* Supporting Files */,
+				F26440D81B1B537300DF14FC /* ProfileViewController.swift */,
+				F26440DA1B1B539C00DF14FC /* ProfileView.swift */,
 			);
-			path = ViewControllerNavigationDemoTests;
+			name = Profile;
 			sourceTree = "<group>";
 		};
-		F26440C81B1B529200DF14FC /* Supporting Files */ = {
+		F26440DF1B1B551200DF14FC /* First */ = {
 			isa = PBXGroup;
 			children = (
-				F26440C91B1B529200DF14FC /* Info.plist */,
+				F26440DD1B1B550B00DF14FC /* FirstViewController.swift */,
+				F26440E01B1B552800DF14FC /* FirstView.swift */,
 			);
-			name = "Supporting Files";
+			name = First;
+			sourceTree = "<group>";
+		};
+		F26440E41B1B56D100DF14FC /* Second */ = {
+			isa = PBXGroup;
+			children = (
+				F26440E21B1B55C800DF14FC /* SecondViewController.swift */,
+				F26440E51B1B56EE00DF14FC /* SecondView.swift */,
+			);
+			name = Second;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -132,24 +131,6 @@
 			productReference = F26440AF1B1B529200DF14FC /* ViewControllerNavigationDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		F26440C31B1B529200DF14FC /* ViewControllerNavigationDemoTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F26440D11B1B529200DF14FC /* Build configuration list for PBXNativeTarget "ViewControllerNavigationDemoTests" */;
-			buildPhases = (
-				F26440C01B1B529200DF14FC /* Sources */,
-				F26440C11B1B529200DF14FC /* Frameworks */,
-				F26440C21B1B529200DF14FC /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				F26440C61B1B529200DF14FC /* PBXTargetDependency */,
-			);
-			name = ViewControllerNavigationDemoTests;
-			productName = ViewControllerNavigationDemoTests;
-			productReference = F26440C41B1B529200DF14FC /* ViewControllerNavigationDemoTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -161,10 +142,6 @@
 				TargetAttributes = {
 					F26440AE1B1B529200DF14FC = {
 						CreatedOnToolsVersion = 6.3.2;
-					};
-					F26440C31B1B529200DF14FC = {
-						CreatedOnToolsVersion = 6.3.2;
-						TestTargetID = F26440AE1B1B529200DF14FC;
 					};
 				};
 			};
@@ -182,7 +159,6 @@
 			projectRoot = "";
 			targets = (
 				F26440AE1B1B529200DF14FC /* ViewControllerNavigationDemo */,
-				F26440C31B1B529200DF14FC /* ViewControllerNavigationDemoTests */,
 			);
 		};
 /* End PBXProject section */
@@ -192,16 +168,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F26440BA1B1B529200DF14FC /* Main.storyboard in Resources */,
 				F26440BF1B1B529200DF14FC /* LaunchScreen.xib in Resources */,
 				F26440BC1B1B529200DF14FC /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F26440C21B1B529200DF14FC /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,38 +180,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F26440B71B1B529200DF14FC /* ViewController.swift in Sources */,
+				F26440DE1B1B550B00DF14FC /* FirstViewController.swift in Sources */,
+				F26440E11B1B552800DF14FC /* FirstView.swift in Sources */,
+				F26440E61B1B56EE00DF14FC /* SecondView.swift in Sources */,
+				F26440DB1B1B539C00DF14FC /* ProfileView.swift in Sources */,
+				F26440D91B1B537300DF14FC /* ProfileViewController.swift in Sources */,
+				F26440E31B1B55C800DF14FC /* SecondViewController.swift in Sources */,
 				F26440B51B1B529200DF14FC /* AppDelegate.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F26440C01B1B529200DF14FC /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F26440CB1B1B529200DF14FC /* ViewControllerNavigationDemoTests.swift in Sources */,
+				F26440D71B1B52DB00DF14FC /* BaseViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		F26440C61B1B529200DF14FC /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = F26440AE1B1B529200DF14FC /* ViewControllerNavigationDemo */;
-			targetProxy = F26440C51B1B529200DF14FC /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin PBXVariantGroup section */
-		F26440B81B1B529200DF14FC /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F26440B91B1B529200DF14FC /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		F26440BD1B1B529200DF14FC /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -356,40 +306,6 @@
 			};
 			name = Release;
 		};
-		F26440D21B1B529200DF14FC /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = ViewControllerNavigationDemoTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ViewControllerNavigationDemo.app/ViewControllerNavigationDemo";
-			};
-			name = Debug;
-		};
-		F26440D31B1B529200DF14FC /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = ViewControllerNavigationDemoTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ViewControllerNavigationDemo.app/ViewControllerNavigationDemo";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -407,14 +323,6 @@
 			buildConfigurations = (
 				F26440CF1B1B529200DF14FC /* Debug */,
 				F26440D01B1B529200DF14FC /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		F26440D11B1B529200DF14FC /* Build configuration list for PBXNativeTarget "ViewControllerNavigationDemoTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F26440D21B1B529200DF14FC /* Debug */,
-				F26440D31B1B529200DF14FC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
